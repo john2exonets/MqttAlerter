@@ -1,0 +1,13 @@
+{
+  "debug": true,
+  "mqtt_broker": "http://10.1.1.28",
+  "ignoreList": [
+    "alert/batty/Out2"
+  ],
+  "svcList": [
+    { "alert": "alert/dooralarm", "svc": 9},
+    { "alert": "alert/garagedoor", "svc": 9},
+    { "alert": "alert/rad", "svc": 1},
+    { "alert": "%%END", "svc": 2}
+  ]
+}

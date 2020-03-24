@@ -1,0 +1,25 @@
+{
+  "name": "mqttAlerter",
+  "version": "1.0.0",
+  "description": "MQTT-to-Notification services bridge",
+  "main": "mqttalerter.js",
+  "scripts": {
+    "test": "echo \"Error: No tests specified.\" && exit 1",
+    "start": "node mqttalerter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/john2exonets/MqttAlerter.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "MQTT",
+    "NodeJS"
+  ],
+  "author": "John D. Allen",
+  "license": "MIT",
+  "dependencies": {
+    "mqtt": "^2.6"
+  }
+}
